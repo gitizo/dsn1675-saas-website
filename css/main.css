@@ -11,3 +11,18 @@ html{
 *, *::before, *::after {
 	box-sizing:inherit;
 }
+
+.grey{
+	background-color: #f0f0f0;
+}
+
+a{
+	color: black;
+}
+
+.banner{
+	background-image: url("http://placehold.it/64x64");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
