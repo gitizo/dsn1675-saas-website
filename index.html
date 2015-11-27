@@ -14,11 +14,16 @@
 
 <body>
 
-<header class="masthead grid grid-middle grey island-1-2">
+	<ul class="skip-links">
+		<li><a href="#main">skip to main content</a></li>
+		<li><a href="#nav">skip to navigation</a></li>
+	</ul>
+
+<header class="masthead role="banner" grid grid-middle grey island-1-2">
 	<div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
 		<img src="http://placehold.it/64x64" alt="">
 	</div>
-	<nav class="unit unit-xs-3-4 unit-s-3-4 unit-m-3-4 unit-l-3-4">
+	<nav class="unit unit-xs-3-4 unit-s-3-4 unit-m-3-4 unit-l-3-4" id="nav">
 		<ul class="list-group list-group--inline text-right push-0">
 			<li><a class="icon-link island-1-2" href="signup.html">sign up</a></li>
 			<li><a class="icon-link island-1-2" href="tour.html">tour</a></li>
@@ -27,7 +32,7 @@
 	</nav>
 </header>
 
-<main>
+<main id="main">
 	<div class="grid text-center banner push">
 		<div class="unit xs-1">
 			<h1 class="exa">Gomo</h1>
@@ -61,7 +66,7 @@
 					<img src="http://placehold.it/64x64" alt="">
 				</div>
 				<div class="unit micro xs-1 s-1 m-1-2 l-1 pad-b">
-					<a class="btn" href="tour.html">Take a tour</a>
+					<a class="btn" href="tour.html" aria-label="Take a tour of our services">Take a tour</a>
 				</div>
 			</div>
 		</div>
@@ -75,7 +80,7 @@
 					<img src="http://placehold.it/64x64" alt="">
 				</div>
 				<div class="unit micro xs-1 s-1 m-1-2 l-1 pad-b">
-					<a class="btn" href="pricing.html">Prices</a>
+					<a class="btn" href="pricing.html" aria-label="Visit pricing page">Prices</a>
 				</div>
 			</div>
 		</div>
