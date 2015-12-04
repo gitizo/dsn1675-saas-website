@@ -346,18 +346,33 @@ svg {
   text-decoration: none;
 }
 
-.btn {
+.btn-b {
   display: inline-block;
   padding: 0.375em 0.75em 0.42em;
-  background-color: #333;
+  background-color: #7D8FB5;
   border-radius: 8px;
   border: 0;
   color: #fff;
   text-decoration: none;
 }
 
-.btn:hover {
-  background-color: #000;
+.btn-y{
+  display: inline-block;
+  padding: 0.375em 0.75em 0.42em;
+  background-color: #E5C97A;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-b:hover {
+  background-color: #E1E8F4;
+  color: #fff;
+}
+
+.btn-y:hover{
+  background-color: #F7F5F0;
   color: #fff;
 }
 
