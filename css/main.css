@@ -21,9 +21,44 @@ a{
 }
 
 .banner{
-	background-image: 
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(../images/home.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  min-height: 30rem;
+
+}
+
+.banner-2{
+  background-image: url(../images/tour.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  min-height: 30rem;
+}
+
+.banner-3{
+  background-image: url(../images/signup.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  min-height: 30rem;
+}
+
+.banner-4{
+  background-image: url(../images/prices.jpg);
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  min-height: 30rem;
 }
 
 .yellow{
