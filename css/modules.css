@@ -233,6 +233,7 @@ svg {
 
 .icon-link, .icon-link:hover {
   text-decoration: none;
+  color: #7D8FB5;
 }
 
 .center {
@@ -354,6 +355,7 @@ svg {
   border: 0;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-y{
@@ -364,6 +366,7 @@ svg {
   border: 0;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-b:hover {

@@ -14,6 +14,8 @@
 
 <body>
 
+	<form action="https://formspree.io/feiz0006@algonquinlive.com" method="post">
+
 <header class="masthead role="banner" grid grid-middle grey island-1-2">
 	<div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
 		<img src="http://placehold.it/64x64" alt="">
@@ -26,6 +28,60 @@
 		</ul>
 	</nav>
 </header>
+
+<form>
+
+	<div>
+		<label for="name">Name</label>
+		<input id="name" name="name" required>
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" required placeholder="you@yours.com">
+	</div>
+
+	<div>
+		<label for="subject">Subject</label>
+		<select id="subject" name="_subject">
+		<option>I'm looking for a bunny</option>
+		<option>medium americano</option>
+		<option>You're great</option>
+		</select>
+	</div>
+
+	<fieldset>
+		<legend>How are you doing?</legend>
+
+
+		<input id="happy" type="radio" name="feels">
+		<label for="happy">Happy</label>
+
+		<input id="sad" type="radio" name="feels">
+		<label for="sad">Sad</label>
+
+		<input id="meh" type="radio" name="feels">
+		<label for="meh">Meh</label>
+
+		<input id="woohoo" type="radio" name="feels">
+		<label for="woohoo">WOOHOO</label>
+	</fieldset>
+
+	<div>
+		<label for="message">Message</label>
+		<textarea id="message"></textarea>
+	</div>
+
+	<div>
+		<button type="submit">Send</button>
+	</div>
+
+
+	<input type="hidden" name="_next"
+	value="https://gitizo.github.io/forms-demo/thanks.html">
+
+</form>
+
 
 <div class="grid">
 	<div class="unit xs-1 s-1 m-1-2 l-1-3">
