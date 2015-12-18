@@ -117,7 +117,8 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.9500rem;
-  color: #7D8FB5;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,1);
 }
 
 h2, .peta {

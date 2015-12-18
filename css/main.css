@@ -20,6 +20,11 @@ a{
 	color: black;
 }
 
+.logo {
+	display: block;
+}
+
+
 .banner{
   background-image: url(../images/home.jpg);
   background-size: cover;
@@ -27,7 +32,9 @@ a{
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,1);
   min-height: 30rem;
+  padding-top: 15em;
 
 }
 
@@ -38,18 +45,22 @@ a{
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
   min-height: 30rem;
   padding-top: 15em;
 }
 
 .banner-3{
-  background-image: url(../images/signup.jpg);
+  background-image: url(../images/signup.jpg);                                                                                                                                                                              
   background-size: cover;
   background-color: #000;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
   min-height: 30rem;
+  padding-top: 15em;
+
 }
 
 .banner-4{
@@ -59,11 +70,16 @@ a{
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
   min-height: 30rem;
+  padding-top: 15em;
+}
+
+
 }
 
 .yellow{
-	background-color: #F7F5F0;
+	background-color: #7D8FB5;
 }
 
 .blue{

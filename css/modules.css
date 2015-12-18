@@ -355,7 +355,28 @@ svg {
   border: 0;
   color: #fff;
   text-decoration: none;
+  text-shadow:none;
   cursor: pointer;
+  margin:3em;
+}
+
+@media only screen and (min-width: 38em){
+  .btn-y{
+    margin-top: 10em;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  .btn-y{
+  display: inline-block;
+  padding: 0.375em 0.75em 0em;
+  background-color: #E5C97A;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  }
 }
 
 .btn-y{
@@ -367,6 +388,7 @@ svg {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  margin: 3em;
 }
 
 .btn-b:hover {
